@@ -19,7 +19,7 @@ public class Task8 {
             double fx = function(x);
             System.out.printf("%-15.6f %-15.6f%n", x, fx);
             if (fx == 0 || fx < 0) {
-                break; // если пройден нуль функции, прекратить выполнение
+                break;
             }
             x += difference;
         }
